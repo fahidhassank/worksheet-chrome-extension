@@ -1,0 +1,89 @@
+body#extension {
+  font-family: sans-serif;
+  background-color: #0e0f11;
+  color: #fff;
+}
+body#extension input[type=text],
+body#extension select,
+body#extension textarea {
+  border: none;
+  background-color: #15191c;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  color: #eee;
+  border-radius: 0.5rem;
+}
+body#extension textarea {
+  width: 100%;
+}
+body#extension .navbar {
+  padding: 1rem 1.5rem;
+  background-color: #15191c;
+}
+body#extension .status-card {
+  border: 2px solid #15191c;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+body#extension label {
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+body#extension .btn {
+  border-radius: 0.5rem;
+}
+body#extension .btn-sm {
+  border-radius: 0.25rem;
+}
+body#extension .clockpicker-popover {
+  border-radius: 1rem;
+  background-color: #15191c;
+  margin-top: 10px;
+}
+body#extension .clockpicker-popover .popover-title,
+body#extension .clockpicker-popover .popover-content {
+  background-color: inherit;
+  color: #fff;
+  border-radius: inherit;
+}
+body#extension .clockpicker-popover .popover-title {
+  padding-top: 10px;
+}
+body#extension .clockpicker-popover .clockpicker-plate {
+  background-color: inherit;
+}
+body#extension .clockpicker-popover .clockpicker-plate .clockpicker-tick {
+  color: #777;
+}
+body#extension .table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+body#extension .table th, body#extension .table td {
+  font-weight: normal;
+  color: #ccc;
+  vertical-align: middle;
+}
+body#extension .table th {
+  text-transform: uppercase;
+  font-size: 0.86rem;
+  white-space: nowrap;
+  font-weight: 700;
+  background-color: rgb(21, 25, 28);
+  padding: 1rem;
+}
+body#extension .table td {
+  background-color: rgba(21, 25, 28, 0.75);
+  padding: 0.5rem 1rem;
+}
+body#extension .table tbody {
+  border-top: none;
+}
+body#extension .table tbody tr:last-child td {
+  border-bottom: none;
+}
+body#extension .table tbody tr td:nth-child(2) {
+  white-space: pre-wrap;
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Worksheet style modifier",
+  "version": "0.1.0",
+  "description": "Change style of iocod worksheet",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches": ["https://worksheet.iocod.com/timesheets"]
+  }]
+}
